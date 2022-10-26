@@ -1,0 +1,431 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     outline: 1px solid orange; 
+}
+
+html {
+    font-family: 'Verdana';
+}
+
+.container {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 100px;
+}
+
+.main-nav {
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-menu {
+    display: flex;
+    flex-grow: 1;
+    margin-left: 62px;
+    list-style: none;
+}
+
+.site-header {
+    background: #222222;
+    padding-bottom: 100px;
+}
+
+.site-menu > li {
+    margin-right: 30px;
+}
+
+.site-footer {
+    background: #131313;
+}
+
+.contacts-menu {
+    display: flex;
+    list-style: none;
+}
+
+.contacts-menu > li {
+    margin-left: 24px;
+}
+
+.about-us {
+    width: 254px;
+    margin-left: 120px;
+    position: relative;
+}
+
+.btn {
+    width: 300px;
+    border-radius: 25px;
+    height: 50px;
+    padding: 17px 100px 16px 38px;
+    color: #000000;
+    font-size: 14px;
+}
+
+.btn-yellow {
+    background: #FFCB06;
+    position: relative;
+}
+
+.about-description {
+    margin-top: 54px;
+    margin-bottom: 70px;
+    color: #FFFFFF;
+}
+
+.features {
+    background: #131313;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 187px;
+    color: #D4D4D4;
+    font-size: 14px;
+}
+
+.feature-made-in-russia {
+    width: 170px;
+    position: relative;
+}
+
+.feature-food {
+    width: 157px;
+    position: relative;
+}
+
+.feature-pilots {
+    width: 150px;
+    position: relative;
+}
+
+.feature-moon-rover {
+    width: 172px;
+    position: relative;
+}
+
+.left-column {
+    width: 424px;
+}
+
+.right-column {
+    width: 443px;
+}
+
+.lead {
+    margin-bottom: 44px;
+    font-family: 'Courier New';
+    font-size: 24px;
+
+}
+
+.columns-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 52px;
+}
+
+.recommendations{
+    background: #FFFFFF;
+    padding-bottom: 50px;
+}
+
+.recommendations-list {
+    width: 424px;
+    font-size: 14px;
+    list-style: none;
+}
+
+h1 {
+    margin-top: 113px;
+    margin-bottom: 30px;
+    font-family: 'Courier New';
+    color: #FFFFFF;
+    font-size: 45px;
+}
+
+h3 {
+    font-family: 'Courier New';
+    font-size: 24px;
+    padding-bottom: 27px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.siz {
+    font-size: 14px;
+}
+
+.moon-vacation {
+    padding-top: 85px;
+    background: #FFFFFF;
+}
+
+.pd {
+    padding-bottom: 15px;   
+}
+
+.company-title {
+    font-size: 14px;
+    color: #D4D4D4;
+}
+
+.footer-menu {
+    list-style: none;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+
+
+.footer-submenu {
+    padding-top: 70px;
+    list-style: none;
+    font-size: 14px;
+}
+
+.copyrights {
+    color: #555555;
+    font-size: 14px;
+    padding-top: 110px;
+}
+
+.footer-columns-container {
+    display: flex;
+}
+
+.logo-container {
+    display: flex;
+    padding-top: 80px;
+    align-items: center;
+}
+
+.footer-submenu-title{
+    color: #D4D4D4;
+    font-size: 14px;
+    padding-left: 250px
+}
+
+.company-title {
+    font-size: 14px;
+    color: #D4D4D4;
+}
+
+.col {
+    color: #888888;
+}
+
+.dop {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.men {
+    font-size: 14px;
+    color: #D4D4D4;
+}
+
+.footer-submenu-title::before {
+    display: block;
+    content: "";
+    width: 180px;
+    height: 1px;
+    background-color: #555555;
+    position: relative;
+    top: 25px;
+}
+
+.recommendations-list > li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.recommendations-list > li::before{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 8px;    
+    background: #FFCB06;
+    border-radius: 50%;
+    left: 0px;
+    top: 6px;
+}
+
+.about-us::before {
+    position: absolute;
+    content: "";
+    background-image: url('../img/moon-rocket 1.png');
+    display: inline-block;
+    width: 438px;
+    height: 438px;
+    top: -70px;
+    left: 394px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feature-made-in-russia::before {
+    position: absolute;
+    content: "";
+    background-image: url('../img/advantage-icon-1 1.png');
+    display: inline-block;
+    width: 60px;
+    height: 68px;
+    top: -95px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feature-food::before {
+    position: absolute;
+    content: "";
+    background-image: url('../img/advantage-icon-2 1.png');
+    display: inline-block;
+    width: 60px;
+    height: 68px;
+    top: -95px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon {
+    position: relative;
+}
+.feature-pilots::before {
+    position: absolute;
+    content: "";
+    background-image: url('../img/advantage-icon-3 1.png');
+    display: inline-block;
+    width: 60px;
+    height: 68px;
+    top: -95px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.feature-moon-rover::before {
+    position: absolute;
+    content: "";
+    background-image: url('../img/advantage-icon-4 1.png');
+    display: inline-block;
+    width: 60px;
+    height: 68px;
+    top: -95px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon-mail::before {
+    position: absolute;
+    content: "";
+    background-image: url('../img/mail-icon 1.png');
+    display: inline-block;
+    width: 17px;
+    height: 12px;
+    top: -7px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon-phone::before {
+    position: absolute;
+    content: "";
+    background-image: url('../img/phone-icon 1.png');
+    display: inline-block;
+    width: 17px;
+    height: 17px; 
+    left: 24px;
+    top: -7px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.visually-hidden {
+    /* visibility: hidden; */
+    display: none;
+}
+
+.btn-yellow::before {
+    position: absolute;
+    content: "";
+    background-image: url('../img/right-arrow-dark 1.png');
+    display: inline-block;
+    width: 19px;
+    height: 16px;  
+    right: 17px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bolder;
+}
+
+.col-yellow {
+    color: #FECA30;
+}
+
+.flight-schedule{
+    background: #222222;
+    height: 468px;
+}
+
+.schedule-text {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 97px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    vertical-align: middle;
+}
+
+.bd {
+    border-bottom: 1px solid #555555;
+}
+
+.tr-one {
+    background: #111111;
+}
+
+tr {
+    height: 50px;
+}
+
+td {
+    color: #D4D4D4;
+    font-family: 'Verdana';
+    font-size: 14px;
+}
+
+tr > td:nth-child(1) {
+    padding-left: 17px;
+    width: 285px;
+}
+
+tr > td:nth-child(2) {
+    width: 285px;
+}
+
+tr > td:nth-child(3) {
+    width: 285px;
+}
+
+.men > a {
+    text-decoration: underline;
+}
+
+.table {
+    padding-top: 60px;
+}
